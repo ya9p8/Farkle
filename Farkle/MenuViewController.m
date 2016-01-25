@@ -24,11 +24,8 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UIButton*)sender
 {
     GameViewController* destinationVC = segue.destinationViewController;
-    Game *game = [[Game alloc]initWithNumberOfPlayers:(int)sender.tag];
-    //NSLog(@"Headed to the GameView Controller with: %i player(s)", destinationVC.game.numberOfPlayers);
-    game.delegate = segue.destinationViewController;
-    destinationVC.game = game;
-    
+    destinationVC.numberOfPlayers = (int)sender.tag;
+    //NSLog(@"The number of players is: %i", destinationVC.numberOfPlayers);
     
 }
 

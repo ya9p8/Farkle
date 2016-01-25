@@ -10,7 +10,7 @@
 
 @implementation Player
 
-- (instancetype)initWithName:(NSString* )name
+- (instancetype)initWithName:(NSString*)name
 {
     self = [super init];
     if (self) {
@@ -19,9 +19,6 @@
     return self;
 }
 
--(void)playTurn
-{
-    self.currentTurn = [Turn new];
-}
+
 
 @end

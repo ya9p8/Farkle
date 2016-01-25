@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Game.h"
 
 @interface GameViewController : UIViewController
-@property Game* game;
+@property int numberOfPlayers;
+
 
 
 

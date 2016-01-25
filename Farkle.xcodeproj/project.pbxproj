@@ -13,12 +13,9 @@
 		DBDC29DF1C52FA8300C95779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDC29DD1C52FA8300C95779 /* Main.storyboard */; };
 		DBDC29E11C52FA8300C95779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDC29E01C52FA8300C95779 /* Assets.xcassets */; };
 		DBDC29E41C52FA8300C95779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDC29E21C52FA8300C95779 /* LaunchScreen.storyboard */; };
-		DBDC29ED1C53001A00C95779 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDC29EC1C53001A00C95779 /* DieLabel.m */; };
 		DBDC29F01C54A55200C95779 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDC29EF1C54A55200C95779 /* Player.m */; };
-		DBDC29F31C54A68400C95779 /* Turn.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDC29F21C54A68400C95779 /* Turn.m */; };
-		DBDC29F61C54A6BA00C95779 /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDC29F51C54A6BA00C95779 /* Round.m */; };
-		DBDC29F91C54A6DF00C95779 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDC29F81C54A6DF00C95779 /* Game.m */; };
 		DBDC29FC1C553CF800C95779 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDC29FB1C553CF800C95779 /* MenuViewController.m */; };
+		DBE58E2B1C559D1B005412EE /* DiceImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE58E2A1C559D1B005412EE /* DiceImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,18 +29,12 @@
 		DBDC29E01C52FA8300C95779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBDC29E31C52FA8300C95779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBDC29E51C52FA8300C95779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBDC29EB1C53001A00C95779 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieLabel.h; sourceTree = "<group>"; };
-		DBDC29EC1C53001A00C95779 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieLabel.m; sourceTree = "<group>"; };
 		DBDC29EE1C54A55200C95779 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		DBDC29EF1C54A55200C95779 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		DBDC29F11C54A68400C95779 /* Turn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Turn.h; sourceTree = "<group>"; };
-		DBDC29F21C54A68400C95779 /* Turn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Turn.m; sourceTree = "<group>"; };
-		DBDC29F41C54A6BA00C95779 /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
-		DBDC29F51C54A6BA00C95779 /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
-		DBDC29F71C54A6DF00C95779 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
-		DBDC29F81C54A6DF00C95779 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		DBDC29FA1C553CF800C95779 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		DBDC29FB1C553CF800C95779 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		DBE58E291C559D1B005412EE /* DiceImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceImageView.h; sourceTree = "<group>"; };
+		DBE58E2A1C559D1B005412EE /* DiceImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,16 +73,10 @@
 				DBDC29DB1C52FA8300C95779 /* GameViewController.m */,
 				DBDC29FA1C553CF800C95779 /* MenuViewController.h */,
 				DBDC29FB1C553CF800C95779 /* MenuViewController.m */,
-				DBDC29EB1C53001A00C95779 /* DieLabel.h */,
-				DBDC29EC1C53001A00C95779 /* DieLabel.m */,
-				DBDC29F71C54A6DF00C95779 /* Game.h */,
-				DBDC29F81C54A6DF00C95779 /* Game.m */,
+				DBE58E291C559D1B005412EE /* DiceImageView.h */,
+				DBE58E2A1C559D1B005412EE /* DiceImageView.m */,
 				DBDC29EE1C54A55200C95779 /* Player.h */,
 				DBDC29EF1C54A55200C95779 /* Player.m */,
-				DBDC29F11C54A68400C95779 /* Turn.h */,
-				DBDC29F21C54A68400C95779 /* Turn.m */,
-				DBDC29F41C54A6BA00C95779 /* Round.h */,
-				DBDC29F51C54A6BA00C95779 /* Round.m */,
 				DBDC29DD1C52FA8300C95779 /* Main.storyboard */,
 				DBDC29E01C52FA8300C95779 /* Assets.xcassets */,
 				DBDC29E21C52FA8300C95779 /* LaunchScreen.storyboard */,
@@ -184,11 +169,8 @@
 				DBDC29FC1C553CF800C95779 /* MenuViewController.m in Sources */,
 				DBDC29D91C52FA8300C95779 /* AppDelegate.m in Sources */,
 				DBDC29D61C52FA8300C95779 /* main.m in Sources */,
-				DBDC29F91C54A6DF00C95779 /* Game.m in Sources */,
-				DBDC29ED1C53001A00C95779 /* DieLabel.m in Sources */,
-				DBDC29F31C54A68400C95779 /* Turn.m in Sources */,
-				DBDC29F61C54A6BA00C95779 /* Round.m in Sources */,
 				DBDC29F01C54A55200C95779 /* Player.m in Sources */,
+				DBE58E2B1C559D1B005412EE /* DiceImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
